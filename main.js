@@ -14,4 +14,9 @@ div6.insertAdjacentElement("afterbegin",blanc)
 div6.insertAdjacentElement("afterbegin",noir)
 
 // creation du bouton sale section 2
+let sale = document.querySelector("#bouttonsale")
+let boutsale = document.createElement("button")
+boutsale.innerText = "SALE ITEMS"
+boutsale.id ="boutsale"
+sale.insertAdjacentElement("afterbegin",boutsale)
 

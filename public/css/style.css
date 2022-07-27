@@ -19,7 +19,7 @@
   background-color: grey;
   height: 20px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 12px;
   width: 20px;
   border-radius: 25%;
 }
@@ -37,19 +37,33 @@
 .deux {
   background-color: #f3f3f3;
   height: 400px;
+  display: flex;
+  justify-content: center;
 }
-
-.rouge {
+.deux .centre {
+  margin: auto;
+}
+.deux .rouge {
   color: #dd4545;
   font-size: 30px;
+  margin: 10px;
 }
-
-.empo {
+.deux .empo {
   font-size: 50px;
+  font-weight: bolder;
+  margin: 10px;
 }
-
-.texte1 {
+.deux .texte1 {
   color: #88939e;
+}
+.deux #boutsale {
+  background-color: #dd4545;
+  height: 40px;
+  border-radius: 40%;
+  color: white;
+  border: #dd4545;
+  width: 150px;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
