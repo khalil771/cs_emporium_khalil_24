@@ -100,4 +100,20 @@
   font-weight: bold;
 }
 
+.image_fond {
+  background-image: url("/public/img/cta-bg.jpg");
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+.image_fond .texte_centre {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.blanc {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
