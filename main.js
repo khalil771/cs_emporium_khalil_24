@@ -20,3 +20,6 @@ boutsale.innerText = "SALE ITEMS"
 boutsale.id ="boutsale"
 sale.insertAdjacentElement("afterbegin",boutsale)
 
+// creation des cartes a l'aide de la section containers
+let containers_card = document.querySelector("#containers_cards")
+

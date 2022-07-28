@@ -66,4 +66,38 @@
   margin-top: 20px;
 }
 
+.containers .img1 {
+  background-image: url("/public/img/services/service-1.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 30%;
+  position: relative;
+}
+.containers .img2 {
+  background-image: url("/public/img/services/service-2.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 30%;
+  position: relative;
+}
+.containers .img3 {
+  background-image: url("/public/img/services/slider-3.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 30%;
+  position: relative;
+}
+.containers .centre {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 3px solid white;
+  width: 70%;
+}
+
+.rouge {
+  color: red;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
