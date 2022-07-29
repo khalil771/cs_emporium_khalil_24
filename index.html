@@ -10,20 +10,21 @@
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
     <title>Document</title>
 </head>
-<body>
-    <h1 class="debut">emporium.</h1>
-    <section class="nav">
-        <div class="gris"><button><p>HOME</p></button></div>
-        <div class="gris"><button><p>PRODUCT</p></button></div>
-        <div class="gris"><button><p>BLOG</p></button></div>
-        <div class="gris"><button><p>ELEMENTS</p></button></div>
-        <div class="gris"><button><p>ABOUT</p></button></div>
-        <div class="gris"><button><p>CONTACT</p></button></div>
+<body class="col-lg-12">
+    
+    <h1 class="debut mt-4">emporium.</h1>
+    <section class="nav col-lg-8 m-auto mt-3 mb-5 pt-3 pb-3 ps-3 pe-3 " style="text-align: center;">
+        <div class="gris"><button class="b"><p>HOME</p></button></div>
+        <div class="gris"><button class="b"><p>PRODUCT</p></button></div>
+        <div class="gris"><button class="b"><p>BLOG</p></button></div>
+        <div class="gris"><button class="b"><p>ELEMENTS</p></button></div>
+        <div class="gris"><button class="b"><p>ABOUT</p></button></div>
+        <div class="gris"><button class="b"><p>CONTACT</p></button></div>
         <!-- le bouton  -->
         <div><p></p></div> 
     </section>
     <!-- creation de la section 2  -->
-    <section class="deux">
+    <section class="deux col-lg-10 d-flex justify-content-center mx-auto">
         <div class="centre">
             <h2 class="rouge">Shop at</h2>
             <p class="empo">emporium.</p>
@@ -37,7 +38,7 @@
 
         <div class="img1 d-flex align-items-center justify-content-center"> <p class="centre "> Living room</p> </div>
 
-        <div class="img2 d-flex align-items-center justify-content-center "><p class="centre"> Sale Items </p></div>
+        <div class="img2 d-flex align-items-center justify-content-center "><p class="centre1"> Sale Items </p></div>
         <div class="img3 d-flex align-items-center justify-content-center"><p class="centre"> Clothes</p></div>
 
     </section>
@@ -54,7 +55,9 @@
             
         </div>
 
-            <div class="articleun   justify-content-center  "><img  class="taille col-lg-10"  src="/public/img/products_mini/product-gloves.jpg" alt="">
+            <div class="articleun   justify-content-center  "> <div class="changement col-12 ">
+<img  class="taille col-lg-10"  src="/public/img/products_mini/product-gloves.jpg" alt="">
+            </div>
                 <div class="d-flex justify-content-center gap-4 ">
                     <div class="mt-4 pt-3 " style="width: 60px ; height: 60px; background-color: #dd4545; border-radius: 50%; color: white;">
                         <p>SALE !</p>
@@ -176,14 +179,56 @@
     </div>
     </section>
     
+</div>
+    <footer class="  d-flex pt-5 pb-5 justify-content-center col-lg-12 " style="background-color: #343a40; " >
 
-    <footer class="  d-flex justify-content-center col-lg-11 bg-black " >
+        <div class="justify-content-center gap-3 d-flex col-lg-12">
+            <div class="col-lg-4 ms-5 ">
+                <p style="color: white; text-align: center; " class="mb-4 ">ABOUT US</p>
+                <p style="color: #585f66;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus labore voluptas alias, eius hic cum est distinctio voluptates ipsa delectus. Possimus unde iure deleniti eum necessitatibus ipsum consequatur corporis debitis!</p>
+                
+            </div>
+            
+            <div class="col-lg-4">
+                <p style="color: white;  " class="pb-4 ">RECENTS POSTS</p>
+                <h6>> Hello world</h6>
+                <h6>> Wonderful serenity has taken</h6>
+                <h6>> In my soul and absorb its power</h6>
+                <h6>> I hear the buzz of the little</h6>
+                
+            </div>
 
-        <div class="justify-content-center d-flex">
-            <p>ABOIT US</p>
-        </div>
+            <div class="col-lg-4">
+                <p style="color: white;  " class="pb-4 ">
+                TAG CLOUD</p>
+                <div class=" fou1 d-flex gap-2">
+                    <div ><p class="ps-2 pe-2">business</p></div>
+                    <div><p class="ps-2 pe-2">confidence</p></div>
+                    <div><p class="ps-2 pe-2">gadgets</p></div>
+                </div>
 
+                <div class=" fou1 d-flex gap-2">
+                    <div ><p class="ps-2 pe-2">identity</p></div>
+                    <div><p class="ps-2 pe-2">logo</p></div>
+                    <div><p class="ps-2 pe-2">photography</p></div>
+                </div>
+
+                <div class=" fou1 d-flex gap-2">
+                    <div ><p class="ps-2 pe-2">time</p></div>
+                    <div><p class="ps-2 pe-2">trips</p></div>
+                    <div><p class="ps-2 pe-2">works</p></div>
+                </div>
+
+                <div class=" fou1 d-flex gap-2">
+                    <div ><p class="ps-2 pe-2">work space</p></div>
+                    
+                </div>
+            </div>
+        
+        
     </footer>
+    
+    
 
 
 
