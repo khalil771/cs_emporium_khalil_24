@@ -241,5 +241,40 @@ body #input1-1 {
 #fermeture2 {
   display: none;
 }
+#fermeture2 
+.taille {
+  transition: 800ms;
+}
+.taille:hover{
+transform: scale(1.2);
+}
+
+@media screen and (min-width :373px) and (max-width: 766px ){
+  .containers .img1{
+    width: 300px;
+  }
+  .containers .img2{
+    width: 300px;
+  }
+  .containers .img3{
+    width: 300px;
+  }
+  .taille{
+    width: 300px;
+  }
+
+}
+
+@media screen and (min-width :767px) and (max-width: 1023px ){
+  .containers .img1{
+    width: 70%;
+  }
+  .containers .img2{
+    width: 70%;
+  }
+  .containers .img3{
+    width: 70%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

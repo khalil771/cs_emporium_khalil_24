@@ -32,11 +32,14 @@ noir.addEventListener("click", function(){
     navnoir.style.backgroundColor = "white"
     titre.style.color = "white"
     titre2.style.color="white"
+    body.style.color="white"
+    
 })
 blanc.addEventListener("click",function(){
     body.style.backgroundColor = "white"
     titre.style.color ="#212529"
     titre2.style.color="#212529"
+    body.style.color="black"
 })
 
 boutton.addEventListener("click",function(){
@@ -141,4 +144,6 @@ carte3_3.addEventListener("mouseover", function(){
 carte3_3.addEventListener("mouseout",function(){
     carte3_3.className = "centre2"
 })
+
+
 
