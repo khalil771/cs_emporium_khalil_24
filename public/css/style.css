@@ -277,4 +277,12 @@ transform: scale(1.2);
   }
 }
 
+.caroussel-general img{
+  height: 200px;
+  width: 250px;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */

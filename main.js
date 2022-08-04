@@ -146,4 +146,10 @@ carte3_3.addEventListener("mouseout",function(){
 })
 
 
+// lancement de la caroussel 
+
+
+// https://colorlib.com/preview/theme/seogo/
+
+
 
