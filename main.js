@@ -149,6 +149,23 @@ carte3_3.addEventListener("mouseout",function(){
 // lancement de la caroussel 
 
 
+let carte1 = document.getElementsByClassName("carte1")
+let carte2 = document.getElementsByClassName("carte2")
+let carte33 = document.getElementsByClassName("carte3")
+let carte4 = document.getElementsByClassName("carte4")
+
+let nav = document.querySelector("section")
+
+window.addEventListener("scroll",function(){
+    if(this.scrollY >20){
+        nav.style.opacity = 0.5
+    }
+
+    else{
+        nav.style.opacity=1
+    }
+})
+
 // https://colorlib.com/preview/theme/seogo/
 
 
