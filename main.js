@@ -149,11 +149,112 @@ carte3_3.addEventListener("mouseout",function(){
 // lancement de la caroussel 
 
 
-let carte1 = document.getElementsByClassName("carte1")
-let carte2 = document.getElementsByClassName("carte2")
-let carte33 = document.getElementsByClassName("carte3")
-let carte4 = document.getElementsByClassName("carte4")
+let carte1 = document.querySelector(".carte1").querySelectorAll("img")
+let carte2 = document.querySelector(".carte2").querySelectorAll("img")
+let carte33 = document.querySelector(".carte3").querySelectorAll("img")
+let carte4 = document.querySelector(".carte4").querySelectorAll("img")
 
+
+let text111 = document.getElementsByClassName("c1")
+let texte1l = Array.from(text111)
+console.log(texte1l[0].className);
+
+
+
+
+let carte1l = Array.from(carte1)
+let carte2l = Array.from(carte2)
+let carte3l = Array.from(carte33)
+let carte4l = Array.from(carte4)
+
+
+
+let bouton1 = document.querySelector(".bouttons1")
+bouton1.addEventListener("click", function(){
+    
+
+
+for (let i = 0; i < texte1l.length; i++) {
+        texte1l[i].style.display = 'block'
+        
+    }
+})
+
+let bouton2 = document.querySelector(".bouttons2")
+bouton2.addEventListener("click", function(){
+    for (let i = 0; i < carte1l.length; i++) {
+        carte1l[i].style.display = 'none'
+    }
+    for (let i = 0; i < texte1l.length; i++) {
+        texte1l[i].style.display = 'none'
+        
+    }
+
+
+    for (let i = 0; i < carte3l.length; i++) {
+        carte3l[i].style.display = 'none'
+    }
+
+
+    for (let i = 0; i < carte4l.length; i++) {
+        carte4l[i].style.display = 'none'
+    }
+
+    for (let i = 0; i < carte2l.length; i++) {
+        carte2l[i].style.display = 'block'
+    }
+})
+
+let bouton3 = document.querySelector(".bouttons3")
+bouton3.addEventListener("click",function(){
+
+    for (let i = 0; i < carte3l.length; i++) {
+        carte3l[i].style.display = 'block'
+    }
+
+    for (let i = 0; i < carte2l.length; i++) {
+        carte2l[i].style.display = 'none'
+    }
+
+
+    for (let i = 0; i < carte1l.length; i++) {
+        carte1l[i].style.display = 'none'
+    }
+
+
+    for (let i = 0; i < carte4l.length; i++) {
+        carte4l[i].style.display = 'none'
+    }
+
+    
+})
+
+
+let bouton4 = document.querySelector(".bouttons4")
+bouton4.addEventListener("click",function(){
+    for (let i = 0; i < carte3l.length; i++) {
+        carte3l[i].style.display = 'none'
+    }
+
+
+    for (let i = 0; i < carte1l.length; i++) {
+        carte1l[i].style.display = 'none'
+    }
+
+
+    for (let i = 0; i < carte2l.length; i++) {
+        carte2l[i].style.display = 'none'
+    }
+
+    for (let i = 0; i < carte4l.length; i++) {
+        carte4l[i].style.display = 'block'
+    }
+})
+console.log(bouton2);
+console.log(carte1[0]);
+
+
+//navbar
 let nav = document.querySelector("section")
 
 window.addEventListener("scroll",function(){
